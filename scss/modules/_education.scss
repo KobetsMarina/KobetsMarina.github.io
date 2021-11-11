@@ -84,6 +84,12 @@
     margin: 1.5rem;
 }
 
+.vector_img:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #bdb8b8;
+}
+
 .showScrollBtn {
     transform: translateY(0);
     opacity: 1;

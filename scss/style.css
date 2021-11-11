@@ -851,6 +851,12 @@ body {
   margin: 1.5rem;
 }
 
+.vector_img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #bdb8b8;
+}
+
 .showScrollBtn {
   -webkit-transform: translateY(0);
           transform: translateY(0);
