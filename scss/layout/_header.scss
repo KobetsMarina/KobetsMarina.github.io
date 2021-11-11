@@ -1,0 +1,12 @@
+.page-header {
+    min-height: 6vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, .5);
+    min-height: 3vw;
+}

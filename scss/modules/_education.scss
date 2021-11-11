@@ -1,0 +1,90 @@
+.education {
+    background-color: #E5E5E5;
+}
+
+.education_block {
+    width: 100%;
+    margin-bottom: 11rem;
+    position: relative;
+}
+
+.education_block .line {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 100%;
+    width: 2px;
+    background: currentColor;
+}
+
+.education_heading {
+    font-family: DrukTextCyr;
+    font-size: 2.25rem;
+    line-height: 2.93rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+.education_subtitle {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+    padding-left: 2rem;
+}
+
+.education_info {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.education_info:last-child {
+    margin-bottom: 0;
+}
+
+.education_info:after {
+    content: "";
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 2px solid currentColor;
+    display: block;
+    transform: translateX(-50%) rotate(45deg);
+    left: 1px;
+    top: 0.625rem;
+    position: absolute;
+    background: #e5e5e5;
+}
+
+.education_adress {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.education_university {
+    font-family: DrukTextCyr;
+    font-size: 2.25rem;
+    line-height: 2.93rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.education_info_block {
+    margin-bottom: 2rem;
+}
+
+.vector {
+    float: right;
+    margin: 1.5rem;
+}
+
+.showScrollBtn {
+    transform: translateY(0);
+    opacity: 1;
+}

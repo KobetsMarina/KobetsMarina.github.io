@@ -1,0 +1,98 @@
+.experience {
+    background-color: #E5E5E5;
+}
+
+.position {
+    position: relative;
+    width: 100%;
+}
+
+.position .line {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 100%;
+    width: 2px;
+    background: currentColor;
+}
+
+.position_info:last-child {
+    margin-bottom: 0;
+}
+
+.position_heading {
+    font-family: DrukTextCyr;
+    font-size: 2.25rem;
+    line-height: 2.93rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.position_info {
+    margin-bottom: 6.25rem;
+    position: relative;
+    padding-left: 2.375rem;
+}
+
+.position_info:after {
+    content: "";
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 2px solid currentColor;
+    display: block;
+    transform: translateX(-50%) rotate(45deg);
+    left: 1px;
+    top: 0.625rem;
+    position: absolute;
+    background: #e5e5e5;
+}
+
+.position_subtitle {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.position_company {
+    font-family: DrukTextCyr;
+    font-size: 2.25rem;
+    line-height: 2.93rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.company_adress {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.responsibilities {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+    position: relative;
+    padding-bottom: 0.3125rem;
+}
+
+.responsibilities:before {
+    content: "\2014";
+    padding-right: 1rem;
+}
+
+.position_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position_responsibilities {
+    margin-top: 3.3125rem;
+}

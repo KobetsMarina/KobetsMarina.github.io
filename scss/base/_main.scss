@@ -1,0 +1,23 @@
+.container {
+    max-width: 74.375rem;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.section_heading {
+    font-family: DrukTextCyr;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 9.375rem;
+    margin-bottom: 2.5rem;
+}
