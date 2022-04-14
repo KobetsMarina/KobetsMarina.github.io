@@ -54,8 +54,8 @@ body {
 }
 
 .container {
-  max-width: 74.375rem;
-  width: 100%;
+  width: 74.375rem;
+  max-width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
   display: -webkit-box;
@@ -81,6 +81,13 @@ body {
   font-weight: 400;
   margin-top: 9.375rem;
   margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
 }
 
 @font-face {
